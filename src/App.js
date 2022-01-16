@@ -52,11 +52,11 @@ function App() {
     return (
         <div className="container">
             {Object.keys(formErrors).length === 0 && isSubmit ? (
-                <div className="ui message success"> با موفقیت وارد شدید </div>
+                <div className="ui message success">ثبت نام با موفقیت انجام شد </div>
             ) : null}
 
             <form onSubmit={handleSubmit}>
-                <h1> ورود </h1>
+                <h1> ثبت نام </h1>
                 <div className="ui divider"></div>
                 <div className="ui form">
                     <div className="field">
